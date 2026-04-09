@@ -1,12 +1,11 @@
 {
-  "name": "bun-react-template",
+  "name": "mock-glide-typing-keyboard",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "bun --hot src/index.ts",
-    "build": "bun build ./src/index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
-    "start": "NODE_ENV=production bun src/index.ts"
+    "dev": "bun src/scripts/start-dev-server.ts",
+    "build": "bun build ./src/index.html --outdir=dist --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'"
   },
   "dependencies": {
     "react": "^19",

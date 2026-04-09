@@ -1,21 +1,19 @@
-# bun-react-template
+A keyboard in browser to generate mock data for gliding keyboard impl
 
-To install dependencies:
+1. Install bun:
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+2. Install dependencies:
 
 ```bash
 bun install
 ```
 
-To start a development server:
+3. Start the dev server:
 
 ```bash
 bun dev
 ```
-
-To run for production:
-
-```bash
-bun start
-```
-
-This project was created using `bun init` in bun v1.3.11. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
