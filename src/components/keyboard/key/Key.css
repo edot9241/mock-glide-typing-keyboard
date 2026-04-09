@@ -1,0 +1,12 @@
+.key {
+    padding: 2.8vw;
+
+    background: white;
+    border-radius: 15%;
+    box-shadow: 0 0.5vw rgba(0, 0, 0, 0.1);
+
+    user-select: none;
+
+    font-family: "monospace";
+    font-size: 5.5vw;
+}

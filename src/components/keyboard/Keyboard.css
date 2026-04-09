@@ -1,0 +1,23 @@
+.keyboard {
+    width: 100vw;
+
+    padding-top: 2vw;
+    padding-bottom: 10vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #E6EAEB;
+
+    touch-action: none;
+
+    .row {
+        margin-bottom: 2vw;
+
+        display: flex;
+        flex-direction: row;
+
+        gap: 1vw;
+    }
+}
