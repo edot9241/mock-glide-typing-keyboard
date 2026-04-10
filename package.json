@@ -1,13 +1,16 @@
 {
   "name": "mock-glide-typing-keyboard",
   "version": "0.1.0",
+  "homepage": "https://edot9241.github.io/mock-glide-typing-keyboard",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "bun src/scripts/start-dev-server.ts",
-    "build": "bun eslint && bun build ./src/index.html --outdir=dist --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'"
+    "predeploy": "bun eslint && bun build ./src/index.html --outdir=dist --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "jiti": "^2.6.1",
     "react": "^19",
     "react-dom": "^19"
