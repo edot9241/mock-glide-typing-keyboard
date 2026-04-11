@@ -10,7 +10,7 @@ import { usePointerHover } from "@/hooks/usePointerHover.ts";
 const qwertyLayoutChars = [
   ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
   ["a", "s", "d", "f", "g", "h", "j", "k", "l"],
-  ["x", "c", "v", "b", "n", "m"],
+  ["z", "x", "c", "v", "b", "n", "m"],
 ];
 
 const Keyboard = ({
